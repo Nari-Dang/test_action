@@ -36,6 +36,7 @@ jobs:
           echo test, and deploy your project.
       # Build application
       - name: Build sample application
+        run: |
           echo Build application...
           gcc main.c -o main
           echo Done!!!
