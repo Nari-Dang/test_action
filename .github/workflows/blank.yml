@@ -40,7 +40,6 @@ jobs:
         run: |
           echo Current directory is $PWD
           echo Build application...
-          cd /home/runner/work/test_action/test_action
           gcc main.c -o main
           echo Done!!!
 
